@@ -1,6 +1,6 @@
-# Frontend Mentor - Order summary component
+# Frontend Mentor - Single price grid component
 
-![Design preview for the Order summary card coding challenge](./design/desktop-design.jpg)
+![](./design/desktop-design.jpg)
 
 ### Built with 💻
 
