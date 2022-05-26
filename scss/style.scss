@@ -1,0 +1,66 @@
+:root {
+  --color-1: rgb(229, 239, 246);
+  --color-2: rgb(74, 190, 189);
+  --color-3: rgb(191, 223, 49);
+  --color-4: rgb(43, 179, 177);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-1);
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.box {
+  padding: 4rem;
+}
+
+.top-box {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.left-box {
+  border: 2px solid red;
+  width: 300px;
+}
+
+.right-box {
+  border: 2px solid rgb(65, 15, 245);
+  width: 300px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
